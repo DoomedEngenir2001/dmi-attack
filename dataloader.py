@@ -13,7 +13,7 @@ from torch.nn.modules.loss import _Loss
 from matplotlib import pyplot
 from torch.utils.data.sampler import SubsetRandomSampler
 
-# mnist_path = "./data/mnist"
+mnist_path = "/content/mnist"
 # mnist_img_path = "./data/MNIST_imgs"
 # cifar_path = "./data/CIFAR"
 # cifar_img_path = "./data/CIFAR_imgs"
