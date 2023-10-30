@@ -197,7 +197,7 @@ def load_mnist():
 		cnt += 1
 		img_name = str(cnt) + '_' + str(labels.item()) + '.png'
 		# utils.save_tensor_images(imgs, os.path.join(mnist_img_path, img_name))
-
+    return train_loader, test_loader
 class celeba(data.Dataset):
 	def __init__(self, data_path=None, label_path=None):
 		self.data_path = data_path
